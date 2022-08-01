@@ -185,20 +185,7 @@ public class ConnectedPlayer implements MinecraftConnectionAssociation, Player, 
     this.playerKey = playerKey;
   }
 
-  @Override
-  public @NonNull Identity identity() {
-    return this.identity;
-  }
-
   
-
-  @Override
-  public Locale getEffectiveLocale() {
-    if (effectiveLocale == null && settings != null) {
-      return settings.getLocale();
-    }
-    return effectiveLocale;
-  }
 
   @Override
   public void setEffectiveLocale(Locale locale) {
