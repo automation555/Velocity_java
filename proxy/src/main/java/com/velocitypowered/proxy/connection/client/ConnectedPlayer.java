@@ -190,10 +190,7 @@ public class ConnectedPlayer implements MinecraftConnectionAssociation, Player, 
     return this.identity;
   }
 
-  @Override
-  public String getUsername() {
-    return profile.getName();
-  }
+  
 
   @Override
   public Locale getEffectiveLocale() {
