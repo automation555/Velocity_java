@@ -235,9 +235,7 @@ public class ConnectedPlayer implements MinecraftConnectionAssociation, Player, 
     return profile;
   }
 
-  public MinecraftConnection getConnection() {
-    return connection;
-  }
+  
 
   @Override
   public long getPing() {
